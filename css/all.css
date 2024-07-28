@@ -806,4 +806,29 @@ a {
     padding-top: 40px;
     padding-bottom: 40px;
   }
+}
+.store {
+  padding-top: 96px;
+  padding-bottom: 80px;
+}
+.store h2 {
+  color: #000;
+  text-align-last: left;
+  border-left: 8px solid #9F1213;
+  padding-left: 16px;
+}
+.store .store-select label {
+  font-size: 24px;
+}
+.store .store-select select {
+  display: block;
+  width: 100%;
+}
+.store .store-card .store-card-title {
+  padding: 8px 0 8px 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1254901961);
+}
+.store .store-card .store-card-body {
+  padding: 16px 0 16px 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1254901961);
 }/*# sourceMappingURL=all.css.map */
