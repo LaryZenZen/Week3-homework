@@ -1,0 +1,42 @@
+body {
+    font-family: "Roboto", "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    @include phone {
+        max-width: 372px;
+    }
+}
+
+@include phone {
+    .container-sm-full {
+        max-width: 576px;
+        padding: 0 12px;
+    }
+}
+
+@for $i from 1 through 10 {
+    @include phone {
+        .mb-sm-#{$i} {
+            margin-bottom: ($mb + $i)*8px;
+        }
+    }
+}
+
+@for $i from 1 through 10 {
+    @include phone {
+        .mr-sm-#{$i} {
+            margin-right: ($mr + $i)*8px;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}

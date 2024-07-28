@@ -4,68 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
     <title>week3</title>
 </head>
 
 <body>
-    <nav class="header-nav">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a href="index.html">
-                <img src="img/logo-white.png" alt="logo" class="logo">
-            </a>
-
-            <ul class="header-nav-list d-flex row">
-                <li><a href="frameStyle" class="mr-8">系列鏡框</a>
-                </li>
-                <li>
-                    <a href="store" class="mr-8">門市據點</a>
-                </li>
-                <li>
-                    <a href="blog" class="mr-8">部落格</a>
-                </li>
-                <li>
-                    <a href="QA">常見問題</a>
-                </li>
-            </ul>
-
-        </div>
-    </nav>
-    <header class="header ">
-        <div class="banner d-flex align-items-center ">
-            <div class="container">
-                <h1>Promise-Desert 2020 早春系列<br><span class="h1-design">看得清，才能看得遠</span></h1>
-                <a href="#" class="btn btn-primary">立即購買</a>
+    <nav class="nav">
+        <div class="container container-sm-full ">
+            <div class="header-nav d-flex justify-content-between align-items-center">
+                <a href="index.html"><img src="img/logo-white.png" alt="logo" class="nav-logo"></a>
+                <ul class="header-nav-list d-flex">
+                    <li class="mr-8"><a href="#">系列鏡框</a></li>
+                    <li class="mr-8">
+                        <a href="#">門市據點</a>
+                    </li>
+                    <li class="mr-8">
+                        <a href="#">部落格</a>
+                    </li>
+                    <li>
+                        <a href="#">常見問題</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
+    <header>
+        <section>
+            <div class="banner">
+                <div class="banner-logo h-100 container d-flex flex-direction-column justify-content-center">
+                    <h1>Promise-Desert 2020 早春系列<br><span class="h1-title">看得清，才能看得遠</span></h1>
+                    <a href="#" class="btn btn-primary">立即購買</a>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
-        <section class="pro">
-            <div class="container">
-                <h2 class="pro-title mb-3">用專業的心，做專業的事</h2>
-                <div class="pro-intro">
-                    <div class="row d-flex">
-                        <div class="pro-intro-list col-3  d-flex flex-direction-column align-items-center">
-                            <img src="img/home-section2-1.png" alt="價格" class="mb-2">
+        <section>
+            <div class="pro">
+                <div class="container">
+                    <h2 class="pro-title mb-3 mb-sm-4">用專業的心，做專業的事</h2>
+                    <div class="pro-intro row d-flex">
+                        <div class="pro-intro-item col-3 d-flex flex-direction-column align-items-center mb-sm-3">
+                            <img src="img/home-section2-1.png" alt="price" class="mb-2 mb-sm-3">
                             <h3 class="mb-1">單一價格</h3>
                             <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
                         </div>
-                        <div class="pro-intro-list col-3 d-flex flex-direction-column align-items-center">
-                            <img src="img/home-section2-2.png" alt="取件時間" class="mb-2">
+                        <div class="pro-intro-item col-3 d-flex flex-direction-column align-items-center mb-sm-3">
+                            <img src="img/home-section2-2.png" alt="time" class="mb-2 mb-sm-3">
                             <h3 class="mb-1">20 分鐘即可取件</h3>
                             <p>為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
                         </div>
-                        <div class="pro-intro-list col-3 d-flex flex-direction-column align-items-center">
-                            <img src="img/home-section2-3.png" alt="售後服務" class="mb-2">
+                        <div class="pro-intro-item col-3 d-flex flex-direction-column align-items-center mb-sm-3">
+                            <img src="img/home-section2-3.png" alt="sales" class="mb-2 mb-sm-3">
                             <h3 class="mb-1">安心售後服務</h3>
                             <p>我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
                         </div>
-                        <div class="pro-intro-list col-3 d-flex flex-direction-column align-items-center">
-                            <img src="img/home-sectioin2-4.png" alt="關於" class="mb-2">
+                        <div class="pro-intro-item col-3 d-flex flex-direction-column align-items-center">
+                            <img src="img/home-sectioin2-4.png" alt="about" class="mb-2 mb-sm-3">
                             <h3 class="mb-1">關於鏡片</h3>
                             <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
                         </div>
@@ -73,79 +74,89 @@
                 </div>
             </div>
         </section>
-        <section class="classic">
-            <div class="container">
-                <h2 class="classic-title mb-6">經典系列鏡框</h2>
-                <div class="classic-list ">
-                    <div class=" row d-flex">
-                        <div class="classic-list-content col-4">
-                            <img src="img/home-section3-1.png" alt="OPTICAL" class="mb-1">
+        <section>
+            <div class="classic">
+                <div class="container">
+                    <h2 class="classic-title mb-8 mb-sm-3">經典系列鏡框</h2>
+                    <div class="classic-list d-flex row">
+                        <div class="col-4 mb-3">
+                            <img src="img/home-section3-1.png" alt="people1" class="mb-1">
                             <h3>OPTICAL</h3>
                         </div>
-                        <div class="classic-list-content col-4">
-                            <img src="img/home-section3-2.png" alt="SUNGLASSES" class="mb-1">
+                        <div class="col-4 mb-3">
+                            <img src="img/home-section3-2.png" alt="people2" class="mb-1">
                             <h3>SUNGLASSES</h3>
                         </div>
-                        <div class="classic-list-content col-4">
-                            <img src="img/home-section3-3.png" alt="FUNCTIONAL" class="mb-1">
+                        <div class="col-4">
+                            <img src="img/home-section3-3.png" alt="people3" class="mb-1">
                             <h3>FUNCTIONAL</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="collaborate">
-            <div class="container">
-                <h2 class="collaborate-title mb-6">聯名設計鏡框</h2>
-                <div class="collaborate-list d-flex">
-                    <div class="collaborate-list-dobleA">
-                        <div class="collaborate-list-logo1"></div>
-                        <!-- <img src="img/home-section4-1-sm.png" alt="DOUBLE A+"> -->
-                        <h3>DOUBLE A+</h3>
-                    </div>
-                    <div>
-                        <div class="collaborate-list-logo2"></div>
-                        <!-- <img src="img/home-section4-2.png" alt="YOUTH"> -->
-                        <h3>YOUTH</h3>
-                    </div>
+        <section>
+            <div class="cobranding">
+                <div class="container container-sm-full">
+                    <h2 class="cobranding-title mb-6 mb-sm-3">聯名設計鏡框</h2>
+                    <ul class="cobranding-items d-flex">
+                        <li class="cobranding-item mb-sm-3">
+                            <picture>
+                                <!-- 當螢幕寬度少於576px時，替換圖片 -->
+                                <source srcset="img/home-section4-1-sm.png" media="(max-width: 576px)">
+                                <!-- 預設圖片，通常是桌面版本 -->
+                                <img src="img/home-section4-1.png" alt="Logo">
+                            </picture>
+                            <h3>DOUBLE A+</h3>
+                        </li>
+                        <li class="cobranding-item">
+                            <picture>
+                                <!-- 當螢幕寬度少於600px時，替換圖片 -->
+                                <source srcset="img/home-section4-2-sm.png" media="(max-width: 576px)">
+                                <!-- 預設圖片，通常是桌面版本 -->
+                                <img src="img/home-section4-2.png" alt="Logo">
+                            </picture>
+                            <h3>YOUTH</h3>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
-        <section class="recommend">
-            <div class="container">
-                <h2 class="recommend-title mb-6">顧客推薦</h2>
-                <div class="recommend-list">
-                    <div class="row d-flex">
-                        <div class="recommend-list-content col-3 ">
-                            <img src="img/home-section5-1.png" alt="commed-1">
-                            <ul class="recommend-list-body recommend-border d-flex flex-direction-column">
+        <section>
+            <div class="recommend">
+                <div class="container">
+                    <h2 class="recommend-title mb-6 mb-sm-3">顧客推薦</h2>
+                    <div class="recommend-list d-flex row">
+                        <div class="col-3 recommend-list-body mb-sm-2">
+                            <img src="img/home-section5-1.png" alt="customer1">
+                            <ul class="recommend-list-content">
                                 <li class="mb-1">Jessy</li>
-                                <li>眼鏡品質優良，下次還會想來這邊購買！</li>
-                                <li class="recommend-list-body-time mt-auto">2021/06/20</li>
+                                <li class="">眼鏡品質優良，下次還會想來這邊購買！</li>
+                                <li class="recommend-list-time">2021/06/20</li>
                             </ul>
                         </div>
-                        <div class="recommend-list-content col-3 ">
-                            <img src="img/home-section5-2.png" alt="commed-2">
-                            <ul class="recommend-list-body recommend-border d-flex flex-direction-column">
+                        <div class="col-3 recommend-list-body mb-sm-2">
+                            <img src="img/home-section5-2.png" alt="customer2">
+                            <ul class="recommend-list-content ">
                                 <li class="mb-1">凱倫</li>
-                                <li>做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</li>
-                                <li class="recommend-list-body-time mt-auto">2021/04/18</li>
+                                <li class="">做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</li>
+                                <li class="recommend-list-time">2021/04/18</li>
                             </ul>
                         </div>
-                        <div class="recommend-list-content col-3 ">
-                            <img src="img/home-section5-3.png" alt="commed-3">
-                            <ul class="recommend-list-body recommend-border d-flex flex-direction-column">
+                        <div class="col-3 recommend-list-body mb-sm-2">
+                            <img src="img/home-section5-3.png" alt="customer3">
+                            <ul class="recommend-list-content  ">
                                 <li class="mb-1">悠悠</li>
-                                <li>謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</li>
-                                <li class="recommend-list-body-time mt-auto">2020/12/25</li>
+                                <li class="">謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</li>
+                                <li class="recommend-list-time">2020/12/25</li>
                             </ul>
                         </div>
-                        <div class="recommend-list-content col-3 ">
-                            <img src="img/home-section5-4.png" alt="commed-4">
-                            <ul class="recommend-list-body recommend-border d-flex flex-direction-column">
+                        <div class="col-3 recommend-list-body">
+                            <img src="img/home-section5-4.png" alt="customer4">
+                            <ul class="recommend-list-content ">
                                 <li class="mb-1">Kyuan</li>
-                                <li>服務很好，品質沒有任何問題，非常喜歡。</li>
-                                <li class="recommend-list-body-time mt-auto">2020/10/31</li>
+                                <li class="">服務很好，品質沒有任何問題，非常喜歡。</li>
+                                <li class="recommend-list-time">2020/10/31</li>
                             </ul>
                         </div>
                     </div>
@@ -153,57 +164,80 @@
             </div>
         </section>
         <section class="contact">
-            <div class="container">
-                <h2 class="contact-title mb-6">聯絡我們</h2>
-                <p class="contact-content mb-3">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
-                <form action="index.html">
-                    <p class="mb-1">姓名</p>
-                    <div class="contact-input-style mb-2"><input type="text" name="name" placeholder="陳小明"></div>
-                    <p class="mb-1">聯絡電話</p>
-                    <div class="contact-input-style mb-2"><input type="tel" name="tel" placeholder="0912-345-678"></div>
-                    <p class="mb-1">電子郵件</p>
-                    <div class="contact-input-style mb-2"><input type="email" name="email" placeholder="example@email.com"></div>
-                    <p class="mb-1">意見反應</p>
-                    <div class="contact-textarea-style"><textarea name="comments" id="" placeholder="請輸入您的意見"></textarea></div>
-                    <div class="mb-6 contact-checkbox"><input type="checkbox">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</div>
-                    <div class="contact-btn">
-                        <input type="button" value="確認送出" name="送出按鈕">
+            <div class="container container-sm-full">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-6">
+                        <h2 class="contact-title mb-6 mb-sm-3">聯絡我們</h2>
+                        <p class="contact-intro mb-3">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+                        <form action="index.html">
+                            <label for="name" class="mb-1">姓名</label>
+                            <input type="text" name="name" placeholder="陳小明" id="name" class="mb-2">
+                            <label for="tel" class="mb-1">聯絡電話</label>
+                            <input type="text" name="tel" placeholder="0912-345-678" id="tel" class="mb-2">
+                            <label for="email" class="mb-1">電子郵件</label>
+                            <input type="mail" name="mailto" placeholder="example@email.com" id="email" class="mb-2">
+                            <label for="Opinion" class="mb-1">意見反應</label>
+                            <textarea name="Opinion" id="Opinion" placeholder="請輸入您的意見" class="mb-2"></textarea>
+                            <div class="contact-check mb-6 mb-sm-3">
+                                <input type="checkbox" name="check" value="check" id="check">
+                                <label for="check">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
+                            </div>
+
+                        </form>
                     </div>
-                </form>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-4">
+                        <div class="contact-submit">
+                            <input type="submit" value="下一步" class="contact-submit">
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </section>
     </main>
     <footer class="footer">
         <div class="container">
-            <nav class="footer-nav d-flex justify-content-between align-items-center mb-3">
-                <ul class="footer-nav-page d-flex">
-                    <li><a href="index.html" class="mr-6">首頁</a></li>
-                    <li><a href="store" class="mr-6">系列鏡框</a></li>
-                    <li><a href="frameStyle" class="mr-6">門市據點</a></li>
-                    <li><a href="blog" class="mr-6">部落格</a></li>
-                    <li><a href="QA">常見問題</a></li>
-                </ul>
-                <div class="footer-nav-contact d-flex">
-                    <a href="fb" class="mr-4"><img src="img/ic-social-fb.png" alt="fb"></a>
-                    <a href="ig" class="mr-4"><img src="img/ic_social_ig.png" alt="ig"></a>
-                    <a href="line" class="mr-4"><img src="img/ic_social_line.png" alt="line"></a>
+            <div class="footer-nav d-flex justify-content-between mb-4">
+                <div class="footer-nav-contact">
+                    <ul class="footer-nav-page d-flex mb-3">
+                        <li class="mr-6"><a href="#">首頁</a></li>
+                        <li class="mr-6">
+                            <a href="#">系列鏡框</a>
+                        </li>
+                        <li class="mr-6">
+                            <a href="#">門市據點</a>
+                        </li>
+                        <li class="mr-6">
+                            <a href="#">部落格</a>
+                        </li>
+                        <li>
+                            <a href="#">常見問題</a>
+                        </li>
+                    </ul>
+                    <div class="footer-number ">
+                        <a href="tel:0800-000-000"> <span class="material-symbols-outlined">call
+                        </span>0800-000-000</a>
+                    </div>
+                    <div class="footer-mail ">
+                        <a href="mailto:glasses@business.com"><span class="material-symbols-outlined">mail</span>glasses@business.com</a>
+                    </div>
                 </div>
-            </nav>
-            <div class="footer-tel d-flex align-items-center mb-1">
-                <a href="tel:0800-000-000"><img src="svg/call_48dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.svg" alt="call" class="mr-2">0800-000-000</a>
+                <div class="footer-socialMedia d-flex">
+                    <a href="#" class="mr-4 mr-sm-1"><img src="img/ic-social-fb.png" alt="fb"></a>
+                    <a href="#" class="mr-4 mr-sm-1"><img src="img/ic_social_ig.png" alt="ig"></a>
+                    <a href="#" class=""><img src="img/ic_social_line.png" alt="line"></a>
+                </div>
             </div>
-            <div class="footer-mail d-flex align-items-center mb-4">
-                <a href="mailto:glasses@business.com"><img src="svg/mail_48dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.svg" alt="mail" class="mr-2">glasses@business.com</a>
-            </div>
-            <div class="footer-border mb-4"></div>
+            <div class="footer-line mb-4"></div>
             <div class="footer-article d-flex">
-                <h3 class="mr-auto">Copyright © 2020 Glasses.All rights reserved.</h3>
-                <div class="footer-article-href">
-                    <a href="#" class="mr-6">隱私權政策</a>
-                    <a href="#">服務條款</a>
-                </div>
+                <p class="mr-auto mb-sm-1">Copyright © 2020 Glasses.All rights reserved.</p>
+                <a href="#" class="mr-6 mb-sm-1">隱私權政策</a>
+                <a href="#">服務條款</a>
             </div>
         </div>
+
     </footer>
 </body>
 
