@@ -632,7 +632,13 @@ a {
   .col-4 {
     width: 100%;
   }
+  .col-5 {
+    width: 100%;
+  }
   .col-6 {
+    width: 100%;
+  }
+  .col-7 {
     width: 100%;
   }
 }
@@ -811,7 +817,7 @@ a {
   padding-top: 96px;
   padding-bottom: 80px;
 }
-.store h2 {
+.store .store-title {
   color: #000;
   text-align-last: left;
   border-left: 8px solid #9F1213;
@@ -819,18 +825,51 @@ a {
 }
 .store .store-select label {
   font-size: 24px;
-  width: 100%;
 }
 .store .store-select select {
   display: block;
-  width: 100%;
+  flex-grow: 1;
   padding: 6px 0 6px 12px;
 }
 .store .store-card .store-card-title {
   padding: 8px 0 8px 24px;
   border: 1px solid rgba(0, 0, 0, 0.1254901961);
+  font-size: 24px;
 }
 .store .store-card .store-card-body {
-  padding: 16px 0 16px 24px;
+  padding: 16px 24px 16px 24px;
   border: 1px solid rgba(0, 0, 0, 0.1254901961);
+  font-size: 20px;
+}
+.store .store-card .store-btn {
+  display: block;
+  background: #000;
+  font-size: 19px;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.store .store-card .material-symbols-outlined {
+  margin-right: 8px;
+}
+.store .store-btn {
+  display: block;
+  background: #000;
+  font-size: 19px;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+@media (max-width: 572px) {
+  .store {
+    padding-top: 96px;
+    padding-bottom: 40px;
+  }
+  .store h2 {
+    font-size: 24px;
+  }
+  .store .store-map {
+    height: 208px;
+  }
 }/*# sourceMappingURL=all.css.map */
