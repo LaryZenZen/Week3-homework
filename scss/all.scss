@@ -1,7 +1,10 @@
-@import"reset";
-@import"variable";
-@import "mixin";
-@import "base";
-@import "layout";
-@import "index";
-@import "store";
+@import "helpers/variable";
+@import "base/reset";
+@import "base/base";
+@import "helpers/mixin";
+@import "helpers/flex";
+@import "helpers/margin";
+@import "helpers/gutter";
+@import "layout/layout";
+@import "pages/index";
+@import "pages/store";

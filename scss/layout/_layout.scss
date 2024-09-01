@@ -9,6 +9,7 @@
     .nav-logo {
         width: 88px;
         height: 49px;
+        object-fit: contain;
     }
 }
 
@@ -56,6 +57,7 @@
         img {
             width: 48px;
             height: 48px;
+            object-fit: contain;
         }
     }
     .footer-number {
