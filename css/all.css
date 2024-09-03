@@ -946,13 +946,12 @@ a {
   border-radius: 4px;
 }
 .recommend .recommend-list-body .recommend-list-content {
-  min-width: 205px;
+  min-height: 205px;
   padding: 16px;
   border: 1px solid #DEE2E6;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1607843137);
 }
 .recommend .recommend-list-body .recommend-list-time {
-  padding-top: 72px;
   font-size: 14px;
   color: #707070;
 }

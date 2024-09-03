@@ -167,13 +167,12 @@ a {
     .recommend-list-body {
         border-radius: 4px;
         .recommend-list-content {
-            min-width: 205px;
+            min-height: 205px;
             padding: 16px;
             border: 1px solid #DEE2E6;
             box-shadow: 0px 2px 6px #00000029;
         }
         .recommend-list-time {
-            padding-top: 72px;
             font-size: 14px;
             color: #707070;
         }
