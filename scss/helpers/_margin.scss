@@ -3,11 +3,19 @@ $mb:0;
     .mb-#{$i} {
         margin-bottom: ($mb + $i)*8px;
     }
+}
+
+;
+@for $i from 1 through 10 {
     @include pad {
         .mb-md-#{$i} {
             margin-bottom: ($mb + $i)*8px;
         }
     }
+}
+
+;
+@for $i from 1 through 10 {
     @include phone {
         .mb-sm-#{$i} {
             margin-bottom: ($mb + $i)*8px;
@@ -21,11 +29,19 @@ $mr:0;
     .mr-#{$i} {
         margin-right: ($mr + $i)*8px;
     }
+}
+
+;
+@for $i from 1 through 10 {
     @include pad {
         .mr-md-#{$i} {
             margin-right: ($mr + $i)*8px;
         }
     }
+}
+
+;
+@for $i from 1 through 10 {
     @include phone {
         .mr-sm-#{$i} {
             margin-right: ($mr + $i)*8px;
